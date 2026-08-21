@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Dodge Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-container">
+    <h1>Agent Dodge Lab</h1>
+
+    <p class="instructions">
+      Move with Arrow Keys or WASD. Avoid the enemies.
+    </p>
+
+    <canvas id="gameCanvas" width="720" height="480"></canvas>
+
+    <div class="game-info">
+      <span id="status">Survive!</span>
+      <span id="score">Score: 0</span>
+    </div>
+
+    <button id="restartButton">Restart</button>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
