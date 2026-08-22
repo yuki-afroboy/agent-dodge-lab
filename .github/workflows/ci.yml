@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Check required files
+        run: |
+          test -f index.html
+          test -f style.css
+          test -f game.js
+
+      - name: Check HTML references
+        run: |
+          grep -q 'style.css' index.html
+          grep -q 'game.js' index.html
+
+      - name: Check JavaScript syntax
+        run: node --check game.js
