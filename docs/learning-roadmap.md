@@ -261,8 +261,8 @@ Deployment
 
 ## Current progress
 
-- Chapters 0–2: completed
-- Chapter 3: CI and Ruleset created; Ruleset validation in progress
-- Chapters 4–12: pending
+- Chapters 0 through 4 are complete.
+- Chapter 4 introduced and evaluated a project-level `CLAUDE.md`.
+- Chapters 5 through 12 are pending.
 
 This roadmap is a living document. It should be updated when the learning sequence changes or when a tool is adopted based on evidence.
