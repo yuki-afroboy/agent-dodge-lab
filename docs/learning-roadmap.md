@@ -261,8 +261,9 @@ Deployment
 
 ## Current progress
 
-- Chapters 0 through 4 are complete.
+- Chapters 0 through 5 are complete.
 - Chapter 4 introduced and evaluated a project-level `CLAUDE.md`.
-- Chapters 5 through 12 are pending.
+- Chapter 5 researched reusable Skills, evaluated Superpowers without installing it, and selected a project-specific systematic debugging procedure for Chapter 6.
+- Chapters 6 through 12 are pending.
 
 This roadmap is a living document. It should be updated when the learning sequence changes or when a tool is adopted based on evidence.
